@@ -4,10 +4,10 @@ from tabulate import tabulate # used for formatted printing of the table.
 
 def main():
     # get the file name and path input:
-    file_path = input("Enter file name and path (default: C:/DEV/flight_analysis_and_table_printing/src/input/personen.csv)\n")
+    file_path = input("Enter file name and path (default: C:/DEV/delay_prediction_and_table_printing/src/input/personen.csv)\n")
     # determine the default file name and path:
     if file_path == "":
-        file_path = "C:/DEV/flight_analysis_and_table_printing/src/input/personen.csv"
+        file_path = "C:/DEV/delay_prediction_and_table_printing/src/input/personen.csv"
     
     print( "The entered file name and path is the following:  "+file_path+'\n')
     
